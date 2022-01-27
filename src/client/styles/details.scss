@@ -3,13 +3,13 @@
 @media (max-width:500px) {
     #results {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .det-content, .det-img {
-        width: 100%;
+        width: 100% !important;
     }
     .det-content {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
 }
 
