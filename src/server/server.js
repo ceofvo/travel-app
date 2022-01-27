@@ -22,6 +22,7 @@ const cors = require('cors');
 app.use(cors());
 
 app.use(express.static('dist'))
+app.use('/images', express.static(__dirname + '/images'));
 
 //console.log(__dirname)
 
@@ -36,12 +37,6 @@ const port = process.env.PORT || 8081
 const server = app.listen(port, ()=>{
     console.log(`Travel app server running on port: ${port}`);
 });
-
-app.get('/key', function (req, res) {
-    let data = {key : "Nice Key"}
-    //data.key = process.env.API_KEY
-    res.send(data)
-})
 
 // POST route
 let addData = (request, response)=> {

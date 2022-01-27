@@ -1,14 +1,14 @@
 # Project Title
 
-Evaluate a news article with Natural Language Processing
+Travel App
 
 # Demo Preview
 
-![Landing Page Preview](https://github.com/ceofvo/evaluate-news-nlp/blob/master/nlp-image.PNG)
+![Landing Page Preview](https://github.com/ceofvo/travel-app/blob/master/src/client/images/travel-app.PNG)
 
 # Description
 
-This project is an app that take a url for any news article, analyse it and return a summary of the article. The project's tech stack is with HTML5, CSS3, SCSS, JavaScript, Webpack & NodeJS.  
+This project is a simple travel app that allows users to enter a travel destination and travel date then get the neccesaary data about weather, date and country information. The project's tech stack is with HTML5, CSS3, SCSS, JavaScript, Webpack & NodeJS.  
 
 # Dependencies
 
@@ -21,7 +21,7 @@ To use this project, first clone the repo on your device using the command below
 
 ```git init```
 
-```git clone https://github.com/ceofvo/landing-page.git``` 
+```git clone https://github.com/ceofvo/travel-app.git``` 
 
 # Usage
 
@@ -31,10 +31,6 @@ To run the project after cloning the repo,
  - Run production build using `npm run build-prod` 
  - Start the project with `npm run start`
  - In your preferred browser visit `http://localhost:8081/`
-
-# Production Demo
-
-To view the live website and explore the project features, [click here.](https://a-news-article-nlp.herokuapp.com//)
 
 # License
 
