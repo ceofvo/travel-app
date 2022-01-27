@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Travel App</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>
+                My Travel App
+            </h1>
+        </header>
+
+        <main>
+            <section>
+                <form class="">
+                    <label for="dest">Travel Destination</label>
+                    <input id="dest" type="text" name="dest" value="">
+
+                    <label for="date">Travel Date</label>
+                    <input id="date" type="date" name="date" value="" >
+
+                    <input type="submit" name="submit" value="Get Details" id="submit">
+                </form>
+            </section>
+
+            <section>
+                <h2 class="det-head">Travel Details</h2>
+                <div id="results">
+                    <div class="det-img"></div>
+                    <div class="det-content">
+                        <div class="det-intro"></div>
+                        <div class="det-dep"></div>
+                        <div class="det-weather"></div>
+                        <div class="det-facts"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy 2022 'Demola Akinpelu. All Right Reserved</p>
+        </footer>
+        
+        <!-- <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script> -->
+    </body>
+</html>
